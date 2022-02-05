@@ -24,7 +24,7 @@ public class Kafka2Print {
         String sourceDDL = "create table kafka_source (\n" +
                 "msg string\n" +
                 ") with (\n" +
-                "  'connector'='kafka-0.11',\n" +
+                "  'connector'='kafka',\n" +
                 "  'topic'='cdn-log',\n" +
                 "  'properties.bootstrap.servers'='192.168.0.200:9092',\n" +
                 "  'format'='json',\n" +
