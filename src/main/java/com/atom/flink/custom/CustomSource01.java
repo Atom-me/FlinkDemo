@@ -27,7 +27,10 @@ public class CustomSource01 {
     }
 
 
-    // 自定义source
+    /**
+     * 自定义source，
+     * 也可以继承 RichParallelSourceFunction
+     */
     public static class MySource1 implements SourceFunction<String> {
 
         /**
