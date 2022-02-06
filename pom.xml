@@ -90,6 +90,13 @@
             <version>${flink.version}</version>
         </dependency>
 
+        <!-- redis sink-->
+        <dependency>
+            <groupId>org.apache.bahir</groupId>
+            <artifactId>flink-connector-redis_2.11</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+
 
         <!-- 日志方便调试 -->
         <dependency>
