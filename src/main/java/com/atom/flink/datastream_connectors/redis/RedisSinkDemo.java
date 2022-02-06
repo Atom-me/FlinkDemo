@@ -15,6 +15,8 @@ import org.apache.flink.streaming.connectors.redis.common.mapper.RedisMapper;
 import org.apache.flink.util.Collector;
 
 /**
+ *
+ * 使用 flink bahir 的 redisSink
  * 从指定socket读取数据，在flink中对单词进行统计计算，然后将计算结果实时写入到redis中
  * <p>
  * ➜  ~ nc -l -p 8888
