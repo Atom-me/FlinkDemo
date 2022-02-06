@@ -1,4 +1,4 @@
-package com.atom.flink.connectors.kafka;
+package com.atom.flink.datastream_connectors.kafka;
 
 import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.configuration.Configuration;

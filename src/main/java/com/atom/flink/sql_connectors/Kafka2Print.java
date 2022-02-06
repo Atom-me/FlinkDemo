@@ -1,4 +1,4 @@
-package com.atom.flink.sql;
+package com.atom.flink.sql_connectors;
 
 import org.apache.flink.table.api.EnvironmentSettings;
 import org.apache.flink.table.api.Table;
